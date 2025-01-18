@@ -12,12 +12,12 @@ Bem-vindo ao meu repositório de projetos! Este espaço é dedicado aos trabalho
 
 ---
 
-## Estrutura do Repositório
-
 ### 🚀 Projetos Principais
 
-- **[Projeto X](link)**: Descrição breve do projeto e tecnologias usadas.
-- **[Projeto Y](link)**: Descrição breve do projeto e tecnologias usadas.
+- **[App Diário de Leitura](https://github.com/ReginaldDev/projects-study/App-%20Diario%20de%20Leitura)**: App feito em Python para registrar suas leituras e resumos de livros.
+- **[Página de Login](https://reginalddev.github.io/projects-study/Login%20responsivo/)**: Tela de Login simples e responsiva (HTML/CSS).
+- **[Food Page Pizzaria](https://reginalddev.github.io/projects-study/Pizzaria/)**: Página de pedidos para Pizzaria em construção (HTML/CSS/JavaScript).
+
 
 
 ## Tecnologias Usadas
@@ -31,7 +31,7 @@ Bem-vindo ao meu repositório de projetos! Este espaço é dedicado aos trabalho
 
 ## Contato
 
-- Email: [seu-email@example.com](mailto:seu-email@example.com)
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil)
+- Email: [reginaldo.devtech@gmail.com](mailto:reginaldo.devtech@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/reginaldojunior89/](https://www.linkedin.com/in/reginaldojunior89/)
 
 Obrigado por visitar meu repositório! 😊
