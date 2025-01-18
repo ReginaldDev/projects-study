@@ -21,9 +21,7 @@ header {
   height: 5vh;
   font-size: 1em;
 }
-nav {
-  padding-top: 10px;
-}
+
 nav > ul {
   display: flex;
   justify-content: center;
@@ -56,8 +54,9 @@ section:not(#inicio) {
   text-align: center;
 }
 
+
 #bemvindo {
-  color: white;
+  color: rgb(253, 252, 252);
   font-size: 1.2em;
   padding: 100px;
   font-weight: 400;
@@ -70,9 +69,13 @@ section:not(#inicio) {
   font-weight: lighter;
   font-size: 2.8em;
   padding-bottom: 15px;
+  text-shadow: 1px 1px 2px black;
+  
 }
 #bemvindo > p {
   padding-bottom: 50px;
+  text-shadow: 1px 1px 2px black;
+  
 }
 .botao {
   background-color: rgb(250, 160, 50);
@@ -146,18 +149,7 @@ section#cardapio {
   transition: 0.3s;
 }
 
-/* Responsividade */
-@media (max-width: 1024px) {
-  .container > li {
-    width: calc(50% - 1rem); /* Dois itens por linha */
-  }
-}
 
-@media (max-width: 768px) {
-  .container > li {
-    width: 100%; /* Um item por linha */
-  }
-}
 
 /* Efeito ao passar o mouse na imagem */
 .container li:hover img {
