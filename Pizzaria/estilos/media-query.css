@@ -2,33 +2,32 @@
 
 /* Responsividade */
 @media (max-width: 1024px) {
-    .container > li {
-      width: calc(50% - 1rem); /* Dois itens por linha */
-    }
+  .container > li {
+    width: calc(50% - 1rem); /* Dois itens por linha */
   }
-  
-@media (max-width: 768px) {
-    .container > li {
-      width: 100%; /* Um item por linha */
-    }
-
-    i#burger{
-        display: none;
-    }
-
-    nav{
-        display: block;
-    }
-    nav >ul>li{
-        display: inline-block;
-    }
-
-    main{
-        width: 768;
-    }
-
 }
 
+@media (max-width: 768px) {
+  .container > li {
+    width: 100%; /* Um item por linha */
+  }
 
+  i#burger {
+    display: none;
+  }
 
+  nav {
+    display: block;
+  }
+  nav> ul > li {
+    display: inline-block;
+  }
 
+  main {
+    width: 100vw;
+  }
+
+  #contato{
+    text-align: center;
+  }
+}

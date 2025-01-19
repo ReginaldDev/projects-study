@@ -90,6 +90,7 @@ section:not(#inicio) {
 .botao:hover {
   background-color: black;
   color: rgba(250, 160, 50, 0.637);
+  transition: 0.3s;
 }
 
 section#cardapio {
@@ -132,6 +133,7 @@ section#cardapio {
   width: calc(33.333% - 2rem); /* Três itens por linha, com espaçamento */
   box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .container li img {
@@ -178,6 +180,7 @@ section#cardapio {
   background-size: cover;
   background-position: center;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 #contato > h3 {
   padding-bottom: 35px;

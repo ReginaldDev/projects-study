@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" />
     <link rel="stylesheet" href="estilos/media-query.css">
-    <link rel="stylesheet" href="js/script.js">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body onresize="mudouTamanho()">
     <header>
-        <i id="burger" class="material-icons" onclick="clickMenu()"></i>
+        <i id="burger" class="material-icons" onclick="clickMenu()" aria-expanded="false">menu</i>
         <nav id="menu">
             <ul>
                 <li><a href="#inicio">Home</a></li>
