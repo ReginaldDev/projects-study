@@ -14,7 +14,7 @@ Bem-vindo ao meu repositório de projetos! Este espaço é dedicado aos trabalho
 
 ### 🚀 Projetos Principais
 
-- **[App Diário de Leitura](https://github.com/ReginaldDev/projects-study/App-%20Diario%20de%20Leitura)**: App feito em Python para registrar suas leituras e resumos de livros.
+- **[App Diário de Leitura](https://github.com/ReginaldDev/projects-study/tree/main/App-%20Diario%20de%20Leitura)**: App feito em Python para registrar suas leituras e resumos de livros.
 - **[Página de Login](https://reginalddev.github.io/projects-study/Login%20responsivo/)**: Tela de Login simples e responsiva (HTML/CSS).
 - **[Food Page Pizzaria](https://reginalddev.github.io/projects-study/Pizzaria/)**: Página de pedidos para Pizzaria em construção (HTML/CSS/JavaScript).
 
