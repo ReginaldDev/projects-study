@@ -1,0 +1,219 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+/* Modo Claro (Padrão) */
+body {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+h1 {
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #eeecece5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    outline: none;
+    background-color: #eeecece5;
+    color: #222;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+fieldset {
+    background: #eeecece5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #333;
+}
+
+legend {
+    font-weight: bold;
+    color: #121212;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    background: #eeecece5;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #121212;
+    border: 1px solid #333;
+}
+
+li:nth-child(odd) {
+    background: #dddddd;
+}
+
+li:hover {
+    background: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Estilo para tarefa concluída */
+.checked {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+@media (max-width: 480px) {
+    form, fieldset {
+        width: 90%;
+    }
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode form {
+    background: #1e1e1e;
+    border: 1px solid #444;
+}
+
+.dark-mode input[type="text"] {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.dark-mode input[type="text"]:focus {
+    background-color: #333;
+}
+
+.dark-mode fieldset {
+    background: #1e1e1e;
+    border: 1px solid #444;
+}
+
+.dark-mode legend {
+    color: #ffffff;
+}
+
+.dark-mode ul li {
+    background: #222;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+.dark-mode ul li:nth-child(odd) {
+    background: #2a2a2a;
+}
+
+.dark-mode ul li:hover {
+    background: #333;
+    cursor: pointer;
+}
+
+/* Estilo para o interruptor */
+.switch-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-label {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background: #ccc;
+    border-radius: 34px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.switch-label .switch-button {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s;
+}
+
+.switch-input:checked + .switch-label {
+    background: #007bff;
+}
+
+.switch-input:checked + .switch-label .switch-button {
+    transform: translateX(26px);
+}

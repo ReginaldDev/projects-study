@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Lista de Tarefas</h1>
+
+    <form name="form_main" class="form">
+        <label for="task" class="title">Tarefa: </label>
+        <input type="text" name="task" id="task" class="input"><br>
+        <button id="btn">Adicionar Tarefa</button> 
+    </form>
+
+    <fieldset class="field">
+        <legend class="legend">Tarefas:</legend>
+        <ul>
+            
+        </ul>
+    </fieldset>
+
+    <div class="switch-container">
+        <input type="checkbox" id="dark-mode-switch" class="switch-input" onclick="toggleDarkMode()">
+        <label for="dark-mode-switch" class="switch-label">
+            <span class="switch-button"></span>
+        </label>
+    </div>
+
+    <script src="script.js" defer></script> 
+</body>
+</html>
