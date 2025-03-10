@@ -1,16 +1,21 @@
-function mudouTamanho(){
+function clickMenu() {
+    let itens = document.getElementById('itens');
+    let burger = document.getElementById('burger');
+    itens.classList.toggle('show');
+    if (itens.classList.contains('show')) {
+        burger.setAttribute('aria-expanded', 'true');
+    } else {
+        burger.setAttribute('aria-expanded', 'false');
+    }
+}
+
+function mudouTamanho() {
     if (window.innerWidth >= 768) {
-        itens.style.display = 'block' 
-    } else {
-        itens.style.display = 'none'
+        let itens = document.getElementById('itens');
+        let burger = document.getElementById('burger');
+        itens.classList.remove('show');
+        burger.setAttribute('aria-expanded', 'false');
     }
 }
 
-function clickMenu(){
-    if (itens.style.display == 'block') {
-        itens.style.display = 'none'
-    } else {
-        itens.style.display = 'block'
-    }
-}
-
+window.addEventListener('resize', mudouTamanho);
